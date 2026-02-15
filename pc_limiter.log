@@ -1,0 +1,26 @@
+2026-02-15 18:46:20,796 [INFO] monitor: WindowsProcessMonitor initialized: tasklist=/mnt/c/Windows/System32/tasklist.exe, taskkill=/mnt/c/Windows/System32/taskkill.exe, powershell=powershell.exe
+2026-02-15 18:46:20,809 [INFO] monitor: Database initialized at /home/hiroki/Portfolio/pc_limiter/usage_log.db
+2026-02-15 18:46:21,358 [INFO] llm_client: OllamaClient initialized: model=phi3, url=http://localhost:11434
+2026-02-15 18:46:21,358 [INFO] __main__: PCLimiterApp initialized
+2026-02-15 18:46:21,358 [INFO] __main__: Blacklist: ['chrome.exe', 'discord.exe', 'vlc.exe', 'steam.exe', 'steamwebhelper.exe']
+2026-02-15 18:46:21,358 [INFO] __main__: Curfew: 01:00:00 - 06:00:00
+2026-02-15 18:46:21,358 [INFO] __main__: Max usage per app: 7200 seconds
+2026-02-15 18:46:21,457 [INFO] __main__: Monitoring started (interval: 5s)
+2026-02-15 18:46:21,459 [INFO] __main__: System tray not available
+2026-02-15 18:46:24,302 [INFO] monitor: Successfully killed process: chrome.exe
+2026-02-15 18:46:24,303 [WARNING] __main__: INTERVENTION: 禁止アプリ「chrome.exe」が起動されたため、強制終了しました。
+2026-02-15 18:46:24,323 [ERROR] llm_client: Failed to generate scolding message: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-02-15 18:46:24,556 [INFO] overlay: Overlay shown with countdown 5 seconds
+2026-02-15 18:46:29,673 [INFO] overlay: Overlay unlocked
+2026-02-15 18:46:44,307 [INFO] __main__: Overlay closed, monitoring resumed
+2026-02-15 18:46:44,307 [INFO] overlay: Overlay closed by user
+2026-02-15 18:55:28,026 [INFO] monitor: WindowsProcessMonitor initialized: tasklist=/mnt/c/Windows/System32/tasklist.exe, taskkill=/mnt/c/Windows/System32/taskkill.exe, powershell=powershell.exe
+2026-02-15 18:55:28,026 [INFO] monitor: Database initialized at /home/hiroki/Portfolio/pc_limiter/usage_log.db
+2026-02-15 18:55:28,450 [INFO] llm_client: OllamaClient initialized: model=phi3, url=http://localhost:11434
+2026-02-15 18:55:28,450 [INFO] __main__: PCLimiterApp initialized
+2026-02-15 18:55:28,450 [INFO] __main__: Blacklist: ['chrome.exe', 'discord.exe', 'vlc.exe', 'steam.exe', 'steamwebhelper.exe']
+2026-02-15 18:55:28,451 [INFO] __main__: Curfew: 01:00:00 - 06:00:00
+2026-02-15 18:55:28,451 [INFO] __main__: Max usage per app: 7200 seconds
+2026-02-15 18:55:28,492 [INFO] __main__: Monitoring started (interval: 5s)
+2026-02-15 18:55:28,494 [INFO] __main__: System tray not available
+2026-02-15 18:55:34,189 [WARNING] monitor: tasklist.exe returned non-zero exit code: -2, stderr: 
